@@ -28,15 +28,15 @@
           <div style="background-color: #e7f6f6">
             <div style="padding: 20px">
               <el-tag>题目:</el-tag>
-              <span>在下面的输入框中输入题目，形如--DNS服务器和DHCP服务器的作用是()</span>
+              <span> 在下面的输入框中输入题目，形如--DNS服务器和DHCP服务器的作用是()</span>
               <el-form style="margin-top: 20px">
                 <el-form-item>
-                  <el-input type="textarea" style="width:90%;" :rows="4" placeholder="DNS服务器和DHCP服务器的作用是什么（）"></el-input>
+                  <el-input type="textarea" style="width:100%;" :rows="4" value="DNS服务器和DHCP服务器的作用是什么（）"></el-input>
                 </el-form-item>
                 <el-form-item>
                   <el-tag type="success">A</el-tag>
                   <el-input
-                      style="width: 85%; margin-left: 15px"
+                      style="width: 95%; margin-left: 15px"
                       value="将IP地址翻译为计算机名，为客户机分配IP地址"
                       clearable>
                   </el-input>
@@ -44,7 +44,7 @@
                 <el-form-item>
                   <el-tag type="success">B</el-tag>
                   <el-input
-                      style="width: 85%; margin-left: 15px"
+                      style="width: 95%; margin-left: 15px"
                       value="将IP地址翻译为计算机名，为客户机分配IP地址"
                       clearable>
                   </el-input>
@@ -52,7 +52,7 @@
                 <el-form-item>
                   <el-tag type="success">C</el-tag>
                   <el-input
-                      style="width: 85%; margin-left: 15px"
+                      style="width: 95%; margin-left: 15px"
                       value="将IP地址翻译为计算机名，为客户机分配IP地址"
                       clearable>
                   </el-input>
@@ -60,12 +60,25 @@
                 <el-form-item>
                   <el-tag type="success">D</el-tag>
                   <el-input
-                      style="width: 85%; margin-left: 15px"
+                      style="width: 95%; margin-left: 15px"
                       value="将IP地址翻译为计算机名，为客户机分配IP地址"
                       clearable>
                   </el-input>
                 </el-form-item>
+                <el-form-item>
+                  <el-tag>解析:</el-tag>
+                  <span> 在下面的输入框中输入题目解析</span>
+                </el-form-item>
+                <el-form-item>
+                  <el-input type="textarea" style="width:100%;" :rows="4" placeholder="请输入答案解析">
+                  </el-input>
+                </el-form-item>
 
+                <el-form-item>
+                  <el-button type="primary" style="display: block; margin: 0 auto">
+                    提交修改
+                  </el-button>
+                </el-form-item>
               </el-form>
 
             </div>
